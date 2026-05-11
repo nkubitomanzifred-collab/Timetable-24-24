@@ -9,7 +9,7 @@
       </option>
     </select>
 
-    <table border="1">
+    <table border ="1">
       <thead>
         <tr>
           <th>Time</th>
@@ -36,15 +36,14 @@ export default {
       days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
 
       schedule: {
-        Monday: [
-          { time: "07:30 - 10:00", module: "UI/UX" },
-          { time: "10:00 - 10:20", module: "Break" },
-          { time: "10:20 - 12:50", module: "DJF" },
-          { time: "12:50 - 14:00", module: "Lunch" }
-{ time: "12:50 - 14:00", module: "Lunch" },
-          { time: "14:00 - 16:00", module: "MATH" },
-          { time: "16:00 - 17:40", module: "GD" }
-        ],
+  Monday: [
+  { time: "07:30 - 10:00", module: "UI/UX" },
+  { time: "10:00 - 10:20", module: "Break" },
+  { time: "10:20 - 12:50", module: "DJF" },
+  { time: "12:50 - 14:00", module: "Lunch" },
+  { time: "14:00 - 16:00", module: "MATH" },
+  { time: "16:00 - 17:40", module: "GD" }
+],
 
         Tuesday: [
           { time: "07:30 - 10:00", module: "DJF" },

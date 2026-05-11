@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "dev": "cd Timetable && npm run dev"
+  },
   "dependencies": {
     "axios": "^1.16.0",
     "express": "^5.2.1",
